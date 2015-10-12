@@ -1,4 +1,3 @@
-##############RIPPER###############
 install.packages("party")
 install.packages("zoo")
 library(caret)
@@ -11,6 +10,7 @@ library(e1071)
 library(ggplot2)
 library(tree)
 library(party)
+library(oblique.tree)
 
 
 set.seed(9468)
@@ -20,12 +20,12 @@ print("Preparing the LifeExpectency Dataset")
 lifeexpectency = read.csv("life_expectancy.csv")
 
 
-print("Partition Iris dataset")
+print("Partition Iris dataset into training dataset and the test dataset")
 iris_train_Index <- createDataPartition(iris$Species, p=0.80, list=FALSE)
 iris_train_data <- iris[iris_train_Index,]
 iris_test_data <- iris[-iris_train_Index,]
 
-print("Partition LifeExpectency dataset")
+print("Partition LifeExpectency dataset into training dataset and the test dataset")
 lifeexpectency_train_index <- createDataPartition(lifeexpectency$Continent, p = .8, list = FALSE,times = 1)
 lifeexpectency_train_data <- lifeexpectency[lifeexpectency_train_index,]
 lifeexpectency_test_data <- lifeexpectency[-lifeexpectency_train_index,]
@@ -62,12 +62,12 @@ iris_oblique_tree_predictions <- function (iris_oblique_tree_model, iris_test_da
     maxValue <- which.max(predictions[i,]) 
     answers[i] <- maxValue
   }
-  cnames = colnames(predictions)[answers[]]
-  return (cnames)
+  columnnames = colnames(predictions)[answers[]]
+  return (columnnames)
 }
   
 print(table(iris_oblique_tree_predictions(iris_oblique_tree_model, iris_test_data), iris_test_data$Species))
-
+##How to do a plot in oblique tree
 
 
 ########################################## NAIVE BIAS########
@@ -83,7 +83,6 @@ pairs(iris_train_data, main = "Iris Data", pch = 21, bg = c("red", "green3", "bl
 
 
 ################KNN##########
-
 
 
 library(class)
@@ -114,27 +113,47 @@ plot(lifeexpectency_Jrip_fit_model, main="lifeexpectecy training model")
 lifeexpectency_ripper_predictions<-predict(lifeexpectency_Jrip_fit_model, lifeexpectency_test_data)
 print (table (lifeexpectency_ripper_predictions, lifeexpectency_test_data_classes))
 
-
 ##############C4.5#########
-data(lifeexpectency)
-lifeexpectency_fit <- J48(Continent~., data=lifeexpectency)
-summary(lifeexpectency_fit)
-lifeexpectency_predictions <- predict(lifeexpectency_fit, lifeexpectency[,1:7])
-table(lifeexpectency_predictions, lifeexpectency_predictions[,8])
+lifeexpectency_fit_model <- J48(Continent~., data=lifeexpectency_train_data)
+###paryKit is not working in my machine need to test with other machine
+plot(lifeexpectency_fit_model)
+summary(lifeexpectency_fit_model)
+lifeexpectency_c45_predictions<-predict(lifeexpectency_fit_model, lifeexpectency_test_data)
+table(lifeexpectency_c45_predictions, lifeexpectency_test_data_classes)
 
 ###############Oblique Tree#########
+lifeexpectency_oblique_tree_predictions_func<-function (lifeexpectency_oblique_tree_model, lifeexpectency_test_data) {
+  predictions <- predict(lifeexpectency_oblique_tree_model, lifeexpectency_test_data)
+  answers <- c()
+  pred_rows = nrow (predictions)
+  for (i in 1:pred_rows) {
+    maxValue <- which.max(predictions[i,]) 
+    answers[i] <- maxValue
+  }
+  columnnames = colnames(predictions)[answers[]]
+  return (columnnames)
+}
+life_expectency_obtree_model=oblique.tree(formula = Continent~., data=lifeexpectency_train_data, split.impurity = "gini", oblique.splits = "only")
+plot(life_expectency_obtree_model)
+lifeexpectency_oblique_tree_predictions<-lifeexpectency_oblique_tree_predictions_func(life_expectency_obtree_model, lifeexpectency_test_data[, 3:8])
+##Now plot based on the predictions
+print(table(lifeexpectency_oblique_tree_predictions, lifeexpectency_test_data_classes))
+plot(life_expectency_obtree_model)
 
 
 ############Naive Bias##########
-
+life_expectency_nb_model<-NaiveBayes(Continent~., data=lifeexpectency_train_data)
+plot(life_expectency_nb_model)
+life_expectatency_nbb_predictions<-predict(life_expectency_nb_model, lifeexpectency_test_data)
+print(table(life_expectatency_nbb_predictions, lifeexpectency_test_data$Continent))
+confusionMatrix(life_expectatency_nbb_predictions, lifeexpectency_test_data$Continent)
+pairs(lifeexpectency_test_data, main = "Life Expectency based on Test Data", pch = 21, bg = c("red", "green3", "blue") [unclass(lifeexpectency_train_data$Continent)])
 
 
 ######################KNN############
-
-life_expectency_model <- NaiveBayes(Continent~., data=lifeexpectency_train_data)
-life_expectation_predictions <- predict(life_expectency_model, lifeexdata_test[,1:3])
-confusionMatrix(life_expectation_predictions$class, lifeexdata_test$Continent)
-plot(life_expectation_predictions$class, lifeexdata_test$Continent)
-pairs(iris_train_data, main = "Iris Data", pch = 21, bg = c("red", "green3", "blue") [unclass(iris_train_data$Species)])
-
-
+library(kknn)
+lifeexpecency_knn_model<-kknn(train=lifeexpectency_train_data, test=lifeexpectency_test_data, formula = formula(Continent~.), k = 7, distance = 1)
+##Check this plot this needs to be corrected
+plot(lifeexpecency_knn_model)
+lifeexpectency_knn_predictions <-predict(lifeexpecency_knn_model, lifeexpectency_test_data[,1:7])
+print(table(lifeexpectency_knn_predictions, lifeexpectency_test_data[,8]))

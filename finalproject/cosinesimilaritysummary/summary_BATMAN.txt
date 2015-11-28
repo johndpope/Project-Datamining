@@ -1,0 +1,60 @@
+            Processing fantasy
+VectAB 1.151610781485955 VectA_Sq 32.2589931425327 VectB_Sq 0.7082668604999984
+
+Cosine similarity score for fantasy= 0.24092499415358926
+
+          Processing adventure
+VectAB 1.49629205631285 VectA_Sq 37.940553825411165 VectB_Sq 0.7082668604999981
+
+Cosine similarity score for adventure= 0.2886463541508139
+
+            Processing mystery
+VectAB 1.8518214730942721 VectA_Sq 37.27173374129053 VectB_Sq 0.7082668604999982
+
+Cosine similarity score for mystery= 0.3604216390454798
+
+            Processing musical
+VectAB 1.6192702985312892 VectA_Sq 38.926218782061085 VectB_Sq 0.7082668604999981
+
+Cosine similarity score for musical= 0.3083896395597262
+
+             Processing comedy
+VectAB 1.3213006021313467 VectA_Sq 33.32791294949876 VectB_Sq 0.7082668604999987
+
+Cosine similarity score for comedy= 0.27195629308255026
+
+           Processing thriller
+VectAB 2.481201325516692 VectA_Sq 77.61986636085494 VectB_Sq 0.7082668604999984
+
+Cosine similarity score for thriller= 0.3346394195413391
+
+             Processing family
+VectAB 2.019480100383042 VectA_Sq 69.77132573928242 VectB_Sq 0.7082668604999983
+
+Cosine similarity score for family= 0.2872781726124839
+
+              Processing crime
+VectAB 2.2077944101633387 VectA_Sq 88.21410374142383 VectB_Sq 0.7082668604999979
+
+Cosine similarity score for crime= 0.27931300390243186
+
+              Processing drama
+VectAB 1.3847328535053478 VectA_Sq 48.23303284148537 VectB_Sq 0.7082668604999985
+
+Cosine similarity score for drama= 0.23691646823761872
+
+            Processing romance
+VectAB 1.8936605040162426 VectA_Sq 49.58250505365397 VectB_Sq 0.7082668604999987
+
+Cosine similarity score for romance= 0.3195504458933942
+
+             Processing horror
+VectAB 1.5904612986342248 VectA_Sq 40.337915288730464 VectB_Sq 0.7082668604999984
+
+Cosine similarity score for horror= 0.29755545740924744
+
+                Processing war
+VectAB 2.6693247111046436 VectA_Sq 110.70166499116164 VectB_Sq 0.7082668604999982
+
+Cosine similarity score for war= 0.3014573447807569
+

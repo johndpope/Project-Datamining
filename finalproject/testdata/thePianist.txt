@@ -1,0 +1,100 @@
+0	0.04922	szpilman stops sees stands turns stairs janina moment quickly takes glances walks window hands family stares walk round starts continues 
+1	0.00552	car halt officers activity staircase commander stop coming orders wooden passes bemused continuous continued briefly confer strange recorded typing orderlies 
+2	0.00485	firing poles dirt sporadic treat intense speak shake rest young dropping isolated manoeuvre spectators section satisfied calls packed standing send 
+3	0.00466	zyskind mrs coming doorman bodies sheets sorting dolek select children beggars weights petrol douses sergeant height stool surprised sidecar motorcycle 
+4	0.0079	watches woman terrified starts drops decision knew poor puzzled sweets gates astonished hammer warily aghast cinders burnt interior happen pregnant 
+5	0.00266	compartment secret taking andrzej break deported rise reveal waiting telephone public it's hits you'll 
+6	0.00542	dead bodies wall flies drops makes women nod studies besieged food's yurek how's howling bed-sitting safe dehydrated alive aren't driving 
+7	0.00304	rumours stick notices pulls laugh driver splinters year bunks thirties stall tickle true bows waves average walking heads crosses collar 
+8	0.00256	snow forefinger thumb knee views drags stale shadowy fit leers reaction office buyers hide table fires drops 
+9	0.00428	upper falls sentry jumps window hit shupo child hole box small idyllic continuing ankle twists mask gas cascading wristwatch russians 
+10	0.00313	water box bucket fingers poland wounded tents shelters brush sand landings permitted paint russian alerting frightened attention supports boy flying 
+11	0.00199	eyebrows painted thickly rouged brightly she's knife shape closed train insult mauve doors monte swearing whistle traffic policeman unsteady terrifying 
+12	0.01659	voice silence listens runs hold suddenly man's light piece awkward grabs collapses rushes wakes lieutenant's firms silhouette house sleep initials 
+13	0.0038	narrow smile und-zack street wilm shows lurches vanishes und und-zick spot weeping body today's million pavement hits sick urgently 
+14	0.01642	building men fire gun schutzpolizei opposite begins inside women shell smoke directly machine floor fires bear thrown machine-gun field grenades 
+15	0.00514	sound padlock unlocked key opened doesn't alert marble reveal beneath hearing inserted jump steels mugs gruel tail-gate backing truck zloty 
+16	0.00247	explosion pianist grenade beam gold shots barbed lobbing staircase terrific discreet dealers colourful lively purchases vehicles forcing prisoners folds twenty-dollar 
+17	0.0123	won't long wear told camp group poles carrying armbands drag worry i'm emergency case curfew manages shout people garb bayonet 
+18	0.02908	german captain soldiers voice soldier section door guard points firing advance strides ranks caught attention week shoulder fixed open disappeared 
+19	0.00333	vehicle found gestapo heavily panting weapons board top beg flares switched headlights pour nco jackbooted halt screeched entered cough lousy 
+20	0.00409	sake god's sight horse-drawn large cab clatters amused quiet rest warmer polished highly rounds towel strokes corner walled rectangle dressed 
+21	0.00523	end wall line address factory soup hot jewish touch barrel glow packet distribute pleasure scale thud smoke-filled leading poles bustle 
+22	0.00323	card identity brothers back order light creeps spectre shadow dormer filtering sights cloths worker employed faces toilets thing searchlight greatest 
+23	0.00523	car engine hears starts stairs hearing speeds trains jackboots brakes screech roar asleep fights excitement loudspeaker driver pair marek firing 
+24	0.01212	polish officer i'm play column shoot national angel clatter laughter anthem blaring aiming rapid levulose incoherently mutters footsteps kitten drain 
+25	0.02297	work start i'll food jews bring left things thousand we've that's buy zlotys visit stay hundred starts pianist live town 
+26	0.00218	boys size liver trust luczak worked summer group herded speed humour sense fathers rich curtains carpets shoes selling foot area 
+27	0.00342	sofa warehouse thousand legs szpilman's advice crosses photograph framed salute antek szalas knout sing helplessly plan objects crammed stuff waves 
+28	0.00476	bomb glass booth desk manages they'd debris explodes screen studio kick bundled lednicki orderly human enjoying looked boundary rolling closes 
+29	0.0134	day apartment pov szpilman's hospital ruined opposite employment years wards passage square brama zelazna happened reading furniture grand limps ward 
+30	0.00256	canister overcoat emptiness rumbles zikk-zack spurting written samuel whips shupos strength tone half feed curtain green stupid column military 
+31	0.00295	fischke mimeograph women searches cucumbers drags bargain preserves tins fish funny operating symche sons grab heller poor cosmetics side fifties 
+32	0.01174	trucks street sacks corner empty couple begins cries dance cry fast walks play he's lieutenant site bewildered locomotive unloaded dressed 
+33	0.00944	room windows large living broken jehuda give it's furnished zyskind's evening furniture glass discovered shouted pows masonry fallen filters moonlight 
+34	0.00257	bureau labour alley blank mid-afternoon lifted run-down dark desperate increasingly weaker cross she's finger dusk reverberations 
+35	0.00475	cigarette takes baby lights gave reads barbed pen stub parcel alight unties fading page title cried book nervously save nose 
+36	0.01861	szpilman henryk falls halina stumbles shoves lieutenant large arms waiting reach forward sign join call hiding shuffles picked happened soup 
+37	0.00505	boy sweet screams lies boot bundles moaning terrible making made car's kicked stiffens ring dear carefully beckons lots symche stopped 
+38	0.00351	soil rifles stacked neatly niches proud pigs beans honourably kilos run persuading whores money stupid thought polish reply photograph isn't 
+39	0.00457	pistol moustache hair ammunition shoots wielding red hitler keyboard talks spade bucket clip rolled sleeves carefully baton szerman amazing policeman 
+40	0.00209	wreck wire barbed roaring grandfather cheerfully tattered nation rapists barracks noticed gun afraid carpets david blue represent furniture bombed we're 
+41	0.008	coat star round ear set desperately puts wearing captain's scarf leaving keeping collects tie collar fuckers sentries echo boots wraps 
+42	0.00409	clothes stove belongings meant alive pay fractically taps baths basins torn anti-aircraft returned treblinka resist scuffle search sun meagre earn 
+43	0.00447	small ghetto closing business landing book recruiting wander they're loaves grinning tenants floors stalls occupants partition improvised bread shelter alleyway 
+44	0.01154	table d'you cover money end seated sits scales meal dining burst lying walking watches let's remains books family radio weights 
+45	0.00466	sit easy level ground fighters surround towel lieutenant sunning thumb resuming lie bandit meshuge vehicle shabby wriggles child half give 
+46	0.01602	don't i've can't money eat there's we'll listen remember stares totally wonderful worry isn't in-tray uncooked raise opinion jaundice underground 
+47	0.00304	sharply heart find bleeding recovering hilarious comrade source nose retreats grandson labour sags jaw packing room 
+48	0.02092	man woman young turns wheelchair feather men whispers ragged run chair carries elderly doorway attractive wrapped stare pull nervous suddenly 
+49	0.01058	jewish workers foremen line lined guarded setting handful wrong standing governor defence groomed flag lot cabinet oatmeal sucking parcels containers 
+50	0.01679	potatoes bread package carrying puts takes opens there's basket reveal bag barley sausage worker kilos bite cupboard unwraps loaf carefully 
+51	0.00342	blows forbid god trots damaged partly response smothered licking throws dead length life slush pov leading note worn full wood 
+52	0.01058	paper finds he's scrap hand slips shoe stuffs hides shelf centre parcel pocket dignity removes sack kneels jacket hands pencil 
+53	0.0146	villa ruined night day loft attic hall floor evening streets yard warehouse kitchen rooms house warsaw dorota's narbutt dawn show 
+54	0.00733	night store carry there's dorota calling gebczynski's pleased serving hut wooden sight boxes afield fourth-floor luczak locking inconspicuous supplies furnishings 
+55	0.00954	papers holding drops tin making floor pile pedestrians weight point takes lane commands giving balcony piled coughs bicycles laughs you'd 
+56	0.00408	give mood damn don't you're official stethoscope berth awkwardly downcast belches brackets sky alerts i...we...all wide staring men's sort task 
+57	0.00446	find contact wire gebczynski turn made air filling men german gaze flight gall inflammation bound pipes washers shadowy taps servile 
+58	0.00228	jew stop gasp eats cool battle lamp foremen camps manhandle pole pushing 
+59	0.00447	puts home kneeling fingers position beginning mouth wladek's round limps flexes married divan's ushers untie smallest difficulty purse establishment things 
+60	0.01641	germans didn't fight put death heard violin pavement we're they're white we'll descends russians basement feel policeman background homes ooo 
+61	0.00247	head poking firer rocket anti-tank panzerfaust provisions chin sacks delegate thighs presses pillows sadly shakes marches child wanders admiring buildings 
+62	0.00313	watches foot voice fill t-junction dangerous strewn shakespeare william venice merchant chatting rooted alleyway shadows bears tonight friend tea distraught 
+63	0.00714	people beat scene full continues cheek fruit film resettle hear shocked traders kisses henryk froing toing warsaw unintelligible iridescent doctor 
+64	0.02826	back szpilman majorek gates benek reaches march nods ghetto column thought smiles bottom noise it's bunk sleep sees returns staggers 
+65	0.00466	glasses finds vodka pours searching drawers bottle forlorn drink clink jostled chicken engrossed pair illustrating label cupboards cork thumps quarter 
+66	0.00237	gap tin climbs headquarters shows support dizzy alight marched settles awaiting hours sleeve tugs spoken dialogue 
+67	0.01109	people close crowd corpses pushes steps dirty gutter crossing lying agitated couple favour moving place lugging round suitcases crack sloping 
+68	0.00533	henryk small bridge wanders papers climb world sight continue street iheydle lovingly earlier pamphlets forlornly saved prepared ringing compound middle 
+69	0.00332	burning dying quiet carried day sing upturned shambles child's water chatting rubinstein herr crossed wanders smaller districts embarrassed wonderful poles 
+70	0.01289	piano plays playing szpilman makes customer friend sits engineer booth jaundice partially played side full gesture chopin's concerto swallowing floods 
+71	0.00974	great jews we're lipa working fine crying make france sound mother atmosphere customers mass column expected britain die anxiety state 
+72	0.00266	fall actor husband's singer dead collecting laid unpacked reaction beams heads lunge map career future jews they're 
+73	0.00696	kitchen empty small field beds coins stack lednicki yelling pale enormous equipment clutches leaf trees contents unpacks teeth roubles dollars 
+74	0.01925	father mother halina regina henryk ehrlich stop walk szpilmans platform table window clothing comforts enter bow place mirrors linen sitting 
+75	0.01499	stand germans watch window leave prisoners moment talking make men michal cautiously piece stock doctor lieutenant stall surroundings bread pass 
+76	0.00209	happening celebrate eighty-eight prayed rotting separating uprising trudging eve year's puffs bombers slaughter sheep horror ready struggling swarm absurd collective 
+77	0.00656	it's hat rising shabby feather hesitates kitten unshaven beard straw revealing veneer including bastards sets patients ambulance loudly smoke shelves 
+78	0.01001	man he's sit handsome szalas dying heller cold response shells drop shivering dragging shot cheerful tables tall noise listening beneath 
+79	0.0019	knees stomach snatcher books theatre pretending threading road dignity save operating slowly snaps packing plaster 
+80	0.00867	man space approaches zick-zack grabs family dorota lednicki russian zygmunt cramped filled stick short clearing sidewalk pulling soviet guard fourth 
+81	0.00697	eyes lies bed weak staring steps music grow ice divan instantly awake cries steaming hunting szpilman's ceiling approach superbly conductor 
+82	0.03766	street day ghetto apartment warsaw night wall cafe side inside evening floor buildings city bogucki nowoczesna dusk pov leading landing 
+83	0.01579	jewish policemen german szpilmans policeman train guards open cordon area district trucks police newspaper shupos brought rickshaw kerb intervals trams 
+84	0.00314	bringing slowly tank blind trail finishes turret mine razor shave darkened mercilessly shoulders bridge liquor tobacco eye food bed reside 
+85	0.03418	i'm good wladek you're it's god they're he's that's haven't what's place news time you've szpilman view die hiding today 
+86	0.00238	keys cloth removes wanted war plaster drinks lid tin fucking chance noise barbed-wire cakes germany declared 
+87	0.00447	ladder climbs trapdoor backyard garden descending crawls stairs squeezes trunks material junk late clutches pain railings wrought-iron unlocks travelling afternoon 
+88	0.0136	szpilman hands face nco holds shakes sun vodka caramel lower air shock personally throws package packages sell catching hard cracks 
+89	0.00361	izaak write machines sewing clatter husband flat dorota small ears greaseproof storm action imperative szerman's throw wladyslaw appearance papa henrykc 
+90	0.00409	jurek they'll weeks notice helped den lion's turned fighters grun dressed stamps joined musical invaded manages smile hitler cousin favour 
+91	0.00504	station radio pig they're friends crooked studio tiles bullet goodbye wind fell strip discipline teach breathing tosses workman ironic men's 
+92	0.02686	door opens front makes enters szpilman open slips leans pulls hurries gebczynski flat turns attic closes waits enter michal key 
+93	0.00809	breath catch tears gazes eyes barely catches hand laughter audible raises remain runs horrified didn't sadness relief billow hobbling focus 
+94	0.0165	sound fire shouts voices hears shots german doors rifle distant footsteps gunfire sounds screams whistle scream begin windows music open 
+95	0.00418	opposite pockets marches distance direction running putting similar announcement important drags viciously local sokolow alerts devastation sun opened escapes sounds 
+96	0.00619	mob heller appears english entrance order mews cat beatifically unloading backs sleeping beckons nearer swelling notices business care pointing angrily 
+97	0.00618	load shoot hey lie scattered cabinets desks struggle man filing telephones king eyeline bach whispered burning field overhead skdgehammers wielding 
+98	0.0193	back building window day runs site hospital feet stores roof shelves couple helps watching firing crawls siding stairs days railway 
+99	0.00428	ramp bricks hod mounting backs policemen's wooden shit toss stir divan posts resettlement crashing slide bent profile illuminate slivers ranks 

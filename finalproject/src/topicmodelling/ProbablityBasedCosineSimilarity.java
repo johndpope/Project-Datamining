@@ -14,7 +14,7 @@ import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.Map;
 
-//calculates the cosine similarity between two texts / documents etc., (having each word separated by space)
+//calculates the cosine similarity between two texts / documents
 public class ProbablityBasedCosineSimilarity {
 
 	public static final String genre[] = { "adventure", "comedy", "crime", "drama", "family", "fantasy", "horror",
@@ -65,7 +65,7 @@ public class ProbablityBasedCosineSimilarity {
 			
 		}
 		
-		// Prepare the word Probability vector for train data
+		// Prepare the word Probability vector for test data
 		for (Map.Entry<String, Double> testDocEntry : testDocument.entrySet()) {
 			
 			String curWord = testDocEntry.getKey();
@@ -105,8 +105,6 @@ public class ProbablityBasedCosineSimilarity {
 
 		
 		System.out.println(distincwordslist);
-		
-		
 		output.append(String.format("VectAB " + VectAB + " VectA_Sq " + VectA_Sq + " VectB_Sq " + VectB_Sq));
 		sim_score = ((VectAB) / (Math.sqrt(VectA_Sq) * Math.sqrt(VectB_Sq)));
 		return sim_score;
@@ -119,7 +117,6 @@ public class ProbablityBasedCosineSimilarity {
 		
 		String[] tabbasedtokens = line.split("\t");
 		String token = null;
-		String probablity = null;
 
 		if (tabbasedtokens.length == 2) {
 
@@ -153,7 +150,6 @@ public class ProbablityBasedCosineSimilarity {
 		
 		String[] tabbasedtokens = line.split("\t");
 		String[] spacebasedtokens = null;
-		String probablity = null;
 
 		if (tabbasedtokens.length == 3) {
 
@@ -212,7 +208,6 @@ public class ProbablityBasedCosineSimilarity {
 		/*********************Process Train Data*******************/
 		
 		// This will reference one line at a time
-		String line = null;
 
 		for (int i = 0; i < genre.length; i++) {
 
@@ -224,7 +219,6 @@ public class ProbablityBasedCosineSimilarity {
 				fileReader = new FileReader(fileName);
 				// Always wrap FileReader in BufferedReader.
 				BufferedReader bufferedReader = new BufferedReader(fileReader);
-				String buffer = "";
 				String buf = "";
 
 				HashMap<String, Double> genreProbablity = new HashMap<String, Double>();

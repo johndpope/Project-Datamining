@@ -1,0 +1,83 @@
+#############################MAIN###################################
+
+
+
+INPUT='/home/ankit/studies/uf/third_sem/datamining/project/genres/war'
+MALLETFOLDER='/home/ankit/studies/uf/third_sem/datamining/project/output/war/mallet/'
+KeysFOLDER='/home/ankit/studies/uf/third_sem/datamining/project/output/war/'
+for file in $INPUT/*
+do
+  FILENAME=$(echo $file| cut -d'/' -f 11)
+  echo $file
+  FILENAME=$(echo $FILENAME| cut -d'.' -f 1)
+  echo $FILENAME
+  bin/mallet import-file --input $file --output $MALLETFOLDER$FILENAME.mallet --keep-sequence --remove-stopwords
+  bin/mallet train-topics  --input $MALLETFOLDER$FILENAME.mallet --num-topics 100 --optimize-interval 20  --output-topic-keys $KeysFOLDER$FILENAME.txt 
+done
+
+
+
+
+###########################Other Approach Script###############################
+
+INPUT='/home/rkmalik/work/allworkspaces/semester3/dm/finalproject/data/scriptdatabase/train_output'
+MALLETFOLDER='/home/rkmalik/work/allworkspaces/semester3/dm/finalproject/mallet/otherApproach/'
+KeysFOLDER='/home/rkmalik/work/allworkspaces/semester3/dm/finalproject/mallet/otherApproach/output/'
+for file in $INPUT/*
+do
+  FILENAME=$(echo $file| cut -d'/' -f 10)
+  echo $file
+  echo $FILENAME
+  bin/mallet import-dir --input $file --output $MALLETFOLDER$FILENAME.mallet --keep-sequence --remove-stopwords
+  bin/mallet train-topics  --input $MALLETFOLDER$FILENAME.mallet --num-topics 100 --optimize-interval 20  --output-topic-keys $KeysFOLDER$FILENAME.txt 
+done
+
+
+  bin/mallet import-file --input $file --output $MALLETFOLDER$FILENAME.mallet --keep-sequence --remove-stopwords
+bin/mallet train-topics  --input 10Things.mallet --num-topics 120 --output-state 10Things.gz --output-topic-keys 10ThingsKeys.txt --output-doc-topics 10ThingsTopics.txt 
+
+
+
+--output-state $KeysFOLDER$FILENAME.gz --output-topic-keys $KeysFOLDER$FILENAME.txt --output-doc-topics $KeysFOLDER$FILENAME.txt 
+
+
+
+
+
+
+for file in /home/ankit/studies/uf/third_sem/datamining/project/genres/adventure1/*
+do
+  bin/mallet import-file --input $file --output $file.mallet
+  bin/mallet train-topics  --input $file.mallet --num-topics 100 --output-state $file.gz --output-topic-keys keys.txt --output-doc-topics $fileTopics.txt 
+done
+
+
+
+
+
+
+MALLETFOLDER='/home/ankit/studies/uf/third_sem/datamining/project/genres/output/mallet'
+KeysFOLDER='/home/ankit/studies/uf/third_sem/datamining/project/genres/output/keys/'
+for file in $MALLETFOLDER/*
+do
+  FILENAME=$(echo $file| cut -d'/' -f 12)
+  echo $file
+  FILENAME=$(echo $FILENAME| cut -d'.' -f 1)
+  echo $FILENAME
+   bin/mallet train-topics  --input $file --num-topics 100 --output-topic-keys $KeysFOLDER$FILENAME.txt 
+done
+
+
+
+for file in /home/ankit/studies/uf/third_sem/datamining/project/genres/adventure2/*
+do
+  
+  bin/mallet import-file --input $file --output $file.mallet
+done
+
+INPUT='someletters_12345_moreleters.ext'
+SUBSTRING=$(echo $INPUT| cut -d'_' -f 2)
+echo $SUBSTRING
+
+echo '/home/ankit/studies/uf/third_sem/datamining/project/gnres/adventure1/mallet/AdventuresofBuckarooBanzai.txt.mallet' | cut -d '/' -f 11
+echo 'AdventuresofBuckarooBanzai.txt.mallet' | cut -d '/' -f 1

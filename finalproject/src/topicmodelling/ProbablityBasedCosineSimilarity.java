@@ -104,8 +104,8 @@ public class ProbablityBasedCosineSimilarity {
 		}
 
 		
-		System.out.println(distincwordslist);
-		output.append(String.format("VectAB " + VectAB + " VectA_Sq " + VectA_Sq + " VectB_Sq " + VectB_Sq));
+		//System.out.println(distincwordslist);
+		//output.append(String.format("VectAB " + VectAB + " VectA_Sq " + VectA_Sq + " VectB_Sq " + VectB_Sq));
 		sim_score = ((VectAB) / (Math.sqrt(VectA_Sq) * Math.sqrt(VectB_Sq)));
 		return sim_score;
 	}
@@ -157,12 +157,12 @@ public class ProbablityBasedCosineSimilarity {
 			// Check if token is already present in the map then get the
 			// Probability.
 			
-			if (spacebasedtokens.length>=2) {
+			if (spacebasedtokens.length>=1) {
 				
 				// First find the the probability token  
 				Double curProbablity = Double.parseDouble(tabbasedtokens[1].trim());
 				
-				for (int i = 1; i < spacebasedtokens.length; i++) {
+				for (int i = 0; i < spacebasedtokens.length; i++) {
 					String token = spacebasedtokens[i].trim();
 					Double probablityVal = curTestDataProbablities.get(token);
 					
@@ -200,11 +200,10 @@ public class ProbablityBasedCosineSimilarity {
 			System.out.println("Syntex not correct.");
 		}
 
-		String testdata = parentPath.toString() + "/testdata/";
-		String traindata = parentPath.toString() + "/traindata/";
-		String cosinesummary = parentPath.toString() + "/cosinesimilaritysummary/";
+		String testdata = parentPath.toString() + "/testdata_oldformat/";
+		String traindata = parentPath.toString() + "/traindata_oldformat/";
+		String cosinesummary = parentPath.toString() + "/cosinesimilaritysummary_oldformat/";
 
-		
 		/*********************Process Train Data*******************/
 		
 		// This will reference one line at a time
@@ -288,33 +287,42 @@ public class ProbablityBasedCosineSimilarity {
 		 * */
 		
 		try {
+			
+			String summaryFileName = cosinesummary + "summary.txt";
+			File file = new File (summaryFileName);
+			FileWriter filewriter = new FileWriter(file);
+			BufferedWriter writer = new BufferedWriter(filewriter);
+			writer.write(String.format("%-20s%-30s%-20s%-20s", "Approach Type", "Movie", "Genre", "Cosine Score"));
+			
 			for (Map.Entry<String, HashMap<String, Double>> testDataEntry : testDataProbablities.entrySet()) {
-				
-				String summaryFileName = cosinesummary+"summary_"+testDataEntry.getKey();
-				FileWriter filewriter = new FileWriter(summaryFileName);
-				BufferedWriter writer = new BufferedWriter(filewriter);
+				output = new StringBuilder ("\n");
 				
 				
 				for (Map.Entry<String, HashMap<String, Double>> trainDataEntry : trainGenreProbablities.entrySet()) {
 					
 					String genre = trainDataEntry.getKey();
 					
-					output = new StringBuilder("");
-					output.append(String.format("%30s\n", "Processing " + genre));
-					System.out.printf("%30s\n", "Processing " + genre);
+					//output = new StringBuilder("");
+					//output.append(String.format("%30s\n", "Processing " + genre));
+					//System.out.printf("%30s\n", "Processing " + genre);
+					genre = trainDataEntry.getKey();
+					output.append(String.format("%-20s","Dr. Ranka"));
+					output.append(String.format("%-30s",testDataEntry.getKey()));
+					output.append(String.format("%-20s",genre));
 					
 					double sim_score = cs1.cosineSimilarityScore(trainDataEntry.getValue(), testDataEntry.getValue());
-					System.out.println("Cosine similarity score for " + genre + "= " + sim_score);
+					/*System.out.println("Cosine similarity score for " + genre + "= " + sim_score);
 					System.out.println("\n\n");
 
-					output.append("\n\nCosine similarity score for " + genre + "= " + sim_score + "\n\n");
-
-					writer.write(output.toString());
+					output.append("\n\nCosine similarity score for " + genre + "= " + sim_score + "\n\n");*/
+					output.append(String.format("%-20f\n",sim_score));
+					//output.append(String.format("%-15f\n",probablity_key));
 					
 				}
-				writer.close();
+				writer.write(output.toString());
+				
 			}
-			
+			writer.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

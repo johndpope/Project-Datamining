@@ -1,0 +1,127 @@
+Approach Type       Movie                         Genre               Cosine Score        
+Dr. Ranka           500DaysofSummer.txt           fantasy             0.158197            
+Team                500DaysofSummer.txt           fantasy             0.208844            
+Dr. Ranka           500DaysofSummer.txt           adventure           0.256926            
+Team                500DaysofSummer.txt           adventure           0.226973            
+Dr. Ranka           500DaysofSummer.txt           mystery             0.323679            
+Team                500DaysofSummer.txt           mystery             0.199029            
+Dr. Ranka           500DaysofSummer.txt           musical             0.300579            
+Team                500DaysofSummer.txt           musical             0.208802            
+Dr. Ranka           500DaysofSummer.txt           comedy              0.861456            
+Team                500DaysofSummer.txt           comedy              0.267344            
+Dr. Ranka           500DaysofSummer.txt           thriller            0.277522            
+Team                500DaysofSummer.txt           thriller            0.249784            
+Dr. Ranka           500DaysofSummer.txt           family              0.295224            
+Team                500DaysofSummer.txt           family              0.301162            
+Dr. Ranka           500DaysofSummer.txt           crime               0.300446            
+Team                500DaysofSummer.txt           crime               0.190642            
+Dr. Ranka           500DaysofSummer.txt           drama               0.234009            
+Team                500DaysofSummer.txt           drama               0.172119            
+Dr. Ranka           500DaysofSummer.txt           romance             0.306388            
+Team                500DaysofSummer.txt           romance             0.206559            
+Dr. Ranka           500DaysofSummer.txt           horror              0.249480            
+Team                500DaysofSummer.txt           horror              0.227147            
+Dr. Ranka           500DaysofSummer.txt           war                 0.285399   
+Team                500DaysofSummer.txt           war                 0.184951 
+
+Dr. Ranka           patriot.txt                   fantasy             0.203114            
+Team                patriot.txt                   fantasy             0.203118            
+Dr. Ranka           patriot.txt                   adventure           0.230273            
+Team                patriot.txt                   adventure           0.165099            
+Dr. Ranka           patriot.txt                   mystery             0.292909            
+Team                patriot.txt                   mystery             0.140352            
+Dr. Ranka           patriot.txt                   musical             0.260538            
+Team                patriot.txt                   musical             0.180614            
+Dr. Ranka           patriot.txt                   comedy              0.253279            
+Team                patriot.txt                   comedy              0.138637            
+Dr. Ranka           patriot.txt                   thriller            0.290974            
+Team                patriot.txt                   thriller            0.213469            
+Dr. Ranka           patriot.txt                   family              0.258431            
+Team                patriot.txt                   family              0.199348            
+Dr. Ranka           patriot.txt                   crime               0.237394            
+Team                patriot.txt                   crime               0.125153            
+Dr. Ranka           patriot.txt                   drama               0.226589            
+Team                patriot.txt                   drama               0.187305            
+Dr. Ranka           patriot.txt                   romance             0.252112            
+Team                patriot.txt                   romance             0.148901            
+Dr. Ranka           patriot.txt                   horror              0.277654            
+Team                patriot.txt                   horror              0.152488            
+Dr. Ranka           patriot.txt                   war                 0.302021            
+Team                patriot.txt                   war                 0.264879 
+
+
+Dr. Ranka           BATMAN.txt                    fantasy             0.242780            
+Team                BATMAN.txt                    fantasy             0.202978            
+Dr. Ranka           BATMAN.txt                    adventure           0.301907            
+Team                BATMAN.txt                    adventure           0.217946            
+Dr. Ranka           BATMAN.txt                    mystery             0.364605            
+Team                BATMAN.txt                    mystery             0.307269            
+Dr. Ranka           BATMAN.txt                    musical             0.315212            
+Team                BATMAN.txt                    musical             0.319250            
+Dr. Ranka           BATMAN.txt                    comedy              0.272113            
+Team                BATMAN.txt                    comedy              0.280142            
+Dr. Ranka           BATMAN.txt                    thriller            0.341011            
+Team                BATMAN.txt                    thriller            0.349881            
+Dr. Ranka           BATMAN.txt                    family              0.296109            
+Team                BATMAN.txt                    family              0.342722            
+Dr. Ranka           BATMAN.txt                    crime               0.289221            
+Team                BATMAN.txt                    crime               0.246679            
+Dr. Ranka           BATMAN.txt                    drama               0.246691            
+Team                BATMAN.txt                    drama               0.266740            
+Dr. Ranka           BATMAN.txt                    romance             0.327229            
+Team                BATMAN.txt                    romance             0.245586            
+Dr. Ranka           BATMAN.txt                    horror              0.305687            
+Team                BATMAN.txt                    horror              0.281423            
+Dr. Ranka           BATMAN.txt                    war                 0.308595            
+Team                BATMAN.txt                    war                 0.283675            
+
+Dr. Ranka           dracula.txt                   fantasy             0.131240            
+Team                dracula.txt                   fantasy             0.081519            
+Dr. Ranka           dracula.txt                   adventure           0.152901            
+Team                dracula.txt                   adventure           0.076084            
+Dr. Ranka           dracula.txt                   mystery             0.156418            
+Team                dracula.txt                   mystery             0.073826            
+Dr. Ranka           dracula.txt                   musical             0.211578            
+Team                dracula.txt                   musical             0.061365            
+Dr. Ranka           dracula.txt                   comedy              0.170140            
+Team                dracula.txt                   comedy              0.085270            
+Dr. Ranka           dracula.txt                   thriller            0.220690            
+Team                dracula.txt                   thriller            0.116646            
+Dr. Ranka           dracula.txt                   family              0.164416            
+Team                dracula.txt                   family              0.087090            
+Dr. Ranka           dracula.txt                   crime               0.174890            
+Team                dracula.txt                   crime               0.092848            
+Dr. Ranka           dracula.txt                   drama               0.142357            
+Team                dracula.txt                   drama               0.092940            
+Dr. Ranka           dracula.txt                   romance             0.188384            
+Team                dracula.txt                   romance             0.067753            
+Dr. Ranka           dracula.txt                   horror              0.181259            
+Team                dracula.txt                   horror              0.368951            
+Dr. Ranka           dracula.txt                   war                 0.173780   
+Team                dracula.txt                   war                 0.101797            
+         
+
+Dr. Ranka           thePianist.txt                fantasy             0.198204            
+Team                thePianist.txt                fantasy             0.169402            
+Dr. Ranka           thePianist.txt                adventure           0.262328            
+Team                thePianist.txt                adventure           0.251501            
+Dr. Ranka           thePianist.txt                mystery             0.302974            
+Team                thePianist.txt                mystery             0.216396            
+Dr. Ranka           thePianist.txt                musical             0.317482            
+Team                thePianist.txt                musical             0.267946            
+Dr. Ranka           thePianist.txt                comedy              0.278508            
+Team                thePianist.txt                comedy              0.208546            
+Dr. Ranka           thePianist.txt                thriller            0.307453            
+Team                thePianist.txt                thriller            0.235696            
+Dr. Ranka           thePianist.txt                family              0.306717            
+Team                thePianist.txt                family              0.339802            
+Dr. Ranka           thePianist.txt                crime               0.279455            
+Team                thePianist.txt                crime               0.229962            
+Dr. Ranka           thePianist.txt                drama               0.238763            
+Team                thePianist.txt                drama               0.263762            
+Dr. Ranka           thePianist.txt                romance             0.302696            
+Team                thePianist.txt                romance             0.328287            
+Dr. Ranka           thePianist.txt                horror              0.275648            
+Team                thePianist.txt                horror              0.239483            
+Dr. Ranka           thePianist.txt                war                 0.296412            
+Team                thePianist.txt                war                 0.258702            
